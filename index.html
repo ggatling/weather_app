@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Weather app!!!!!</title>
+  <link rel='stylesheet' type='text/css' href='./style/reset.css'>
+  <link rel='stylesheet' type='text/css' href='./style/style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <!-- <div class="header_container">
+      <input class="zipcode" type = "text" placeholder="Enter Zipcode" name = "Zipcode" value = "" maxlength = "5"/>
+      <input class="submit" type = "submit" value = "Submit"/>
+   </div> -->
+  </header>
+  <!--
+    HTML NEEDS
+    - input box
+    - submit button
+    - an element with a unique class, id, or data-attribute
+      for each of the weather metrics you want to put on the page.
+   -->
+   <div class="main_text">
+     <input class="zipcode" type = "text" placeholder="Enter Zipcode" name = "Zipcode" value = "" maxlength = "5"/>
+     <input class="submit" type = "submit" value = "Submit"/>
+   </div>
+
+   <div id="container">
+     <div class="city">
+         <div class="cityName"></div>
+        <div class="current">
+          <p class="currentWords"></p>
+        </div>
+        <div class="description"></div>
+     </div>
+     <div class="min">
+       <p class="maxWords"> MIN TEMP </p>
+     </div>
+     <div class="max">
+       <p class="maxWords"> MAX TEMP </p>
+     </div>
+
+
+  </div>
+    <script src='./main.js'></script>
+
+</body>
+</html>
